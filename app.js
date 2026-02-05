@@ -20,32 +20,32 @@ app.get('/bacheca', (req, res) => {
     const bacheca = [
         {
             id: 1,
-            titolo: ciambellone,
-            contenuto: immagine,
+            titolo: "ciambellone",
+            contenuto: "immagine",
             img: "/imgs/ciambellone.jpeg",
             tag: ["zucchero", "uova", "limone"],
         }, {
             id: 2,
-            titolo: cracker_barbabietola,
-            contenuto: immagine,
+            titolo: "cracker_barbabietola",
+            contenuto: "immagine",
             img: "/imgs/cracker_barbabietola.jpeg",
             tag: ["zucchero", "uova", "limone"],
         }, {
             id: 3,
-            titolo: pane_fritto_dolce,
-            contenuto: immagine,
+            titolo: "pane_fritto_dolce",
+            contenuto: "immagine",
             img: "/imgs/pane_fritto_dolce.jpeg",
             tag: ["zucchero", "uova", "limone"],
         }, {
             id: 4,
-            titolo: pasta_barbabietola,
-            contenuto: immagine,
+            titolo: "pasta_barbabietola",
+            contenuto: "immagine",
             img: "/imgs/pasta_barbabietola.jpeg",
             tag: ["zucchero", "uova", "limone"],
         }, {
             id: 5,
-            titolo: torta_paesana,
-            contenuto: immagine,
+            titolo: "torta_paesana",
+            contenuto: "immagine",
             img: "/imgs/torta_paesana.jpeg",
             tag: ["zucchero", "uova", "limone"],
         }
